@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" viewBox="0 0 52 52">
+  <g id="ic-promote" transform="translate(-810 -915)">
+    <g id="プレゼンテーションアイコン" transform="translate(810.005 901.4)">
+      <g id="Group_10" data-name="Group 10" transform="translate(-0.005 15.6)">
+        <path id="Path_649" data-name="Path 649" d="M83.038,42.477A3.938,3.938,0,1,0,79.1,38.538,3.936,3.936,0,0,0,83.038,42.477Z" transform="translate(-71.091 -32.676)" fill="#cfb56c"/>
+        <path id="Path_650" data-name="Path 650" d="M207.7,17.787h25.655V38.674H207.7V36.932a6.706,6.706,0,0,1-1-.091l-.111-.02-1.083-.3v4.354h30.039V15.6H205.5V26.089l2.187.769V17.787Z" transform="translate(-184.694 -15.6)" fill="#cfb56c"/>
+        <path id="Path_651" data-name="Path 651" d="M233.7,323.738a3.938,3.938,0,1,0,3.938-3.938A3.936,3.936,0,0,0,233.7,323.738Z" transform="translate(-210.039 -289.002)" fill="#cfb56c"/>
+        <path id="Path_652" data-name="Path 652" d="M203.4,417c-3.7,0-6.976,1.235-7.8,5.325l.061,2.713h15.47l.061-2.713C210.382,418.235,207.091,417,203.4,417Z" transform="translate(-175.796 -376.361)" fill="#cfb56c"/>
+        <path id="Path_653" data-name="Path 653" d="M396.1,323.738a3.938,3.938,0,1,0,3.938-3.938A3.936,3.936,0,0,0,396.1,323.738Z" transform="translate(-355.997 -289.002)" fill="#cfb56c"/>
+        <path id="Path_654" data-name="Path 654" d="M365.8,417c-3.7,0-6.976,1.235-7.8,5.325l.061,2.713h15.46l.061-2.713C372.772,418.235,369.491,417,365.8,417Z" transform="translate(-321.754 -376.361)" fill="#cfb56c"/>
+        <path id="Path_655" data-name="Path 655" d="M24.881,139.92l6.358-3.037a1.686,1.686,0,0,0-1.306-3.108l-5.72,1.954-5.174-1.812a10.313,10.313,0,0,0-2.329-.516l-3.483,5.376V135.9H11.1v2.9l-3.918-4.708a6.86,6.86,0,0,0-4.252,5.346l-2.9,12.078a1.686,1.686,0,0,0,3.29.739L6.374,144.2l.79,23.954a1.995,1.995,0,1,0,3.989,0l.79-14.286.79,14.286a1.995,1.995,0,1,0,3.989,0l1.124-29.108,4.566,1.266A3.783,3.783,0,0,0,24.881,139.92Z" transform="translate(0.005 -121.473)" fill="#cfb56c"/>
+        <rect id="Rectangle_290" data-name="Rectangle 290" width="2.126" height="1.488" transform="translate(11.097 12.008)" fill="#cfb56c"/>
+      </g>
+      <path id="Path_656" data-name="Path 656" d="M299.705,64.9l1.883,3.817,4.212.618-3.047,2.977.719,4.192-3.766-1.974L295.939,76.5l.719-4.192L293.6,69.335l4.222-.618Z" transform="translate(-263.879 -44.309)" fill="#cfb56c"/>
+    </g>
+    <rect id="Rectangle_355" data-name="Rectangle 355" width="52" height="52" transform="translate(810 915)" fill="none"/>
+  </g>
+</svg>

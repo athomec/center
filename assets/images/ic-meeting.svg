@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" viewBox="0 0 52 52">
+  <g id="ic-meeting" transform="translate(-1055 -916)">
+    <g id="授業アイコン" transform="translate(1057 915)">
+      <path id="Path_642" data-name="Path 642" d="M101.626,9.742a4.871,4.871,0,1,0-4.871-4.871A4.871,4.871,0,0,0,101.626,9.742Z" transform="translate(-89.013 4)" fill="#86cf6c"/>
+      <ellipse id="Ellipse_134" data-name="Ellipse 134" cx="4.835" cy="4.835" rx="4.835" ry="4.835" transform="translate(4.233 32.724)" fill="#86cf6c"/>
+      <path id="Path_643" data-name="Path 643" d="M54.665,450.208a6.1,6.1,0,0,0-6.143,6.051l12.193.091A6.1,6.1,0,0,0,54.665,450.208Z" transform="translate(-45.574 -405.458)" fill="#86cf6c"/>
+      <ellipse id="Ellipse_135" data-name="Ellipse 135" cx="4.835" cy="4.835" rx="4.835" ry="4.835" transform="translate(20.233 32.724)" fill="#86cf6c"/>
+      <path id="Path_644" data-name="Path 644" d="M215.638,450.208a6.1,6.1,0,0,0-6.142,6.051l12.193.091A6.1,6.1,0,0,0,215.638,450.208Z" transform="translate(-190.547 -405.458)" fill="#86cf6c"/>
+      <ellipse id="Ellipse_136" data-name="Ellipse 136" cx="4.835" cy="4.835" rx="4.835" ry="4.835" transform="translate(36.233 32.724)" fill="#86cf6c"/>
+      <path id="Path_645" data-name="Path 645" d="M376.614,450.208a6.1,6.1,0,0,0-6.141,6.051l12.193.091A6.1,6.1,0,0,0,376.614,450.208Z" transform="translate(-335.524 -405.458)" fill="#86cf6c"/>
+      <path id="Path_646" data-name="Path 646" d="M44.088,134.984H38.769v-3.942a7.294,7.294,0,0,0-5.7-7.171l-.605,1.876H30.487l-.6-1.872a7.293,7.293,0,0,0-5.7,7.058v4.051h-5.32v3.343H44.088Zm-13.6-8.158h1.975V132.9l-.987.854-.988-.854v-6.075Z" transform="translate(-18.861 -107.559)" fill="#86cf6c"/>
+    </g>
+    <rect id="Rectangle_356" data-name="Rectangle 356" width="52" height="52" transform="translate(1055 916)" fill="none"/>
+  </g>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" viewBox="0 0 52 52">
+  <g id="ic-seminar" transform="translate(-549 -916)">
+    <g id="query_stats_black_24dp" transform="translate(549 917)">
+      <rect id="Rectangle_292" data-name="Rectangle 292" width="51" height="51" fill="none"/>
+      <g id="Group_13" data-name="Group 13" transform="translate(2.111 4.222)">
+        <path id="Path_658" data-name="Path 658" d="M40.857,36.769a9.643,9.643,0,1,0-3,2.977l6.586,6.586,3-3ZM32.835,37a5.278,5.278,0,1,1,5.278-5.278A5.28,5.28,0,0,1,32.835,37Zm-.76-17.944a12.429,12.429,0,0,0-4.433.95L26.48,18.255,18.458,31.3,12.1,23.87,4.441,36.136,1,33.666,11.555,16.777l6.333,7.389,8.444-13.722Zm5.468,1.056a12.5,12.5,0,0,0-4.328-1.034L44.023,2l3.42,2.491Z" transform="translate(-1 -2)" fill="#78c9ff"/>
+      </g>
+    </g>
+    <rect id="Rectangle_354" data-name="Rectangle 354" width="52" height="52" transform="translate(549 916)" fill="none"/>
+  </g>
+</svg>
