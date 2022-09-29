@@ -12,62 +12,37 @@ $(function () {
     $(this).parent('.form-check').addClass('active');
   }); //---------------------首頁輪播設定------------------------
 
-  var slide_btn = $('.js-slider').find('button');
-  var bar = $('.js-bar');
-  var barWidth = 0;
-  var to_play;
-  var to_stop;
-  $('.js-slider').carousel({
-    pause: "false"
+  /*let slide_btn = $('.js-slider').find('button');
+  let bar = $('.js-bar');
+  let barWidth = 0;
+  let to_play;
+  let to_stop;
+  	$('.js-slider').carousel({
+  	pause: "false"
   });
-  bar.css("width", barWidth + "%");
-
-  var onImgLoad = function onImgLoad(selector, callback) {
-    $(selector).each(function () {
-      if (this.complete ||
-      /*for IE 10-*/
-      $(this).height() > 0) {
-        callback.apply(this);
-      } else {
-        $(this).on('load', function () {
-          callback.apply(this);
-        });
-      }
-    });
+  	bar.css("width", barWidth + "%");
+  		autoplay();
+  	slide_btn.click(function () {
+  	clearTimeout(to_play);
+  	clearTimeout(to_stop);
+  	autoplay();
+  })
+  	function autoplay() {
+  	resetAnimation();
+  	to_play = setTimeout(autoplay, 5000);
   };
-
-  onImgLoad('.js-active-img', function () {
-    autoplay();
-  });
-  slide_btn.click(function () {
-    clearTimeout(to_play);
-    clearTimeout(to_stop);
-    autoplay();
-  });
-
-  function autoplay() {
-    resetAnimation();
-    to_play = setTimeout(autoplay, 5000);
-  }
-
-  ;
-
-  function resetAnimation() {
-    barWidth = 0;
-    bar.css("width", barWidth + "%");
-    bar.removeClass("animate").addClass("stopanimation");
-    to_stop = setTimeout(startAnimation, 10);
-  }
-
-  ;
-
-  function startAnimation() {
-    barWidth = 100;
-    bar.removeClass("stopanimation").addClass("animate");
-    bar.css("width", 100 + "%");
-  }
-
-  ; //---------------------首頁影片設定------------------------
+  	function resetAnimation() {
+  	barWidth = 0;
+  	bar.css("width", barWidth + "%");
+  	bar.removeClass("animate").addClass("stopanimation");
+  	to_stop = setTimeout(startAnimation, 10);
+  };
+  	function startAnimation() {
+  	barWidth = 100;
+  	bar.removeClass("stopanimation").addClass("animate");
+  	bar.css("width", 100 + "%");
+  };*/
+  //---------------------首頁影片設定------------------------
 
   $('.js-media-video').click(function () {
     var thisYoutubeId = $(this).attr('data-youtube-id');
