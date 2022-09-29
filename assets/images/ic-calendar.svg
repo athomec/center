@@ -1,12 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="31" height="30" viewBox="0 0 31 30">
   <defs>
     <clipPath id="clip-path">
-      <rect id="Rectangle_343" data-name="Rectangle 343" width="20" height="20" transform="translate(-0.401)" fill="#014099"/>
+      <rect id="Rectangle_343" data-name="Rectangle 343" width="20" height="20" transform="translate(-0.333)" fill="#014099"/>
     </clipPath>
   </defs>
-  <g id="ic-calendar" transform="translate(0.401)">
-    <g id="Group_62" data-name="Group 62" clip-path="url(#clip-path)">
-      <path id="Path_809" data-name="Path 809" d="M17.693,2.212h-1V4.423H13.159V2.212H6.745V4.423H3.207V2.212h-1A2.218,2.218,0,0,0,0,4.423V17.693A2.218,2.218,0,0,0,2.212,19.9H17.693A2.218,2.218,0,0,0,19.9,17.693V4.423a2.218,2.218,0,0,0-2.212-2.212m0,15.481H2.212V8.846H17.693ZM5.75,0H4.2V3.76H5.75ZM15.7,0H14.154V3.76H15.7Z" fill="#014099"/>
+  <g id="ic-calendar" transform="translate(-5072 205)">
+    <rect id="Rectangle_354" data-name="Rectangle 354" width="31" height="30" transform="translate(5072 -205)" fill="none"/>
+    <g id="Group_83" data-name="Group 83" transform="translate(5078.333 -200)">
+      <g id="Group_62" data-name="Group 62" clip-path="url(#clip-path)">
+        <path id="Path_809" data-name="Path 809" d="M17.693,2.212h-1V4.423H13.159V2.212H6.745V4.423H3.207V2.212h-1A2.218,2.218,0,0,0,0,4.423V17.693A2.218,2.218,0,0,0,2.212,19.9H17.693A2.218,2.218,0,0,0,19.9,17.693V4.423a2.218,2.218,0,0,0-2.212-2.212m0,15.481H2.212V8.846H17.693ZM5.75,0H4.2V3.76H5.75ZM15.7,0H14.154V3.76H15.7Z" transform="translate(0.401)" fill="#014099"/>
+      </g>
     </g>
   </g>
 </svg>

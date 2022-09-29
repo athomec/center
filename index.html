@@ -459,10 +459,11 @@
 		<!-- SCRIPTS -->
 		<script src="assets/js/jquery-3.3.1.min.js"></script>
 		<script src="assets/js/bootstrap.bundle.js"></script>
+		<script src="assets/js/popper.min.js"></script>
+		<script src="assets/js/tempus-dominus.js"></script>
 		<script src="assets/js/slick.js"></script>
-		<script src="assets/js/moment-with-locales.min.js"></script>
-		<script src="assets/js/tempusdominus-bootstrap-4.min.js"></script>
 		<script src="assets/js/script.js"></script>
+
 		<script type="text/javascript">
 			$(function () {
 				$('.event-slider').slick({
@@ -498,20 +499,12 @@
 						// instead of a settings object
 					]
 				});
-				
-			});
-		</script>
-		<script type="text/javascript">
-			$(function () {
-				$('#export-from').datetimepicker({
-					format: 'YYYY/MM/DD',
-					locale: 'zh-tw'
-				});
-				$('#export-to').datetimepicker({
-					format: 'L',
-					locale: 'zh-tw',
-					defaultDate: new Date(),
-				});
+
+				var datefrom = document.querySelector("#export-from");
+				var dateto = document.querySelector("#export-to");
+				var today = new Date();
+				datefrom.value = today.toISOString().substr(0, 10);
+				dateto.value = today.toISOString().substr(0, 10);
 			});
 		</script>
 	</div>

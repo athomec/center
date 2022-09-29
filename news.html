@@ -120,8 +120,8 @@
 <div class="container" data-con="page-con">
     <div class="bg-tertiary-light-color p-3 p-md-4 mb-4 rounded-lg">
         <div class="row">
-            <div class="col-md-4 col-lg-3">
-                <div class="d-flex justify-content-end align-items-center mb-2 mb-lg-0">
+            <div class="col-lg-4 col-xl-3">
+                <div class="d-flex justify-content-end align-items-center mb-2 mb-xl-0">
                     <label for="type" class="me-2">類別</label>
                     <select class="form-select form-select-sm" id="type" style="width: calc(100% - 42px);">
                         <option selected="">類別</option>
@@ -131,32 +131,16 @@
                     </select>
                 </div>
             </div>
-            <div class="col-md-8 col-lg-5 row gx-3">
-                <div class="d-flex align-items-center mb-2 mb-lg-0">
-                    <label for="from" class="me-2">發布日期</label>
-                    <div class="form-group" style="width: calc(50% - 55px)">
-                        <div class="input-group date" id="export-from" data-target-input="nearest">
-                            <input type="text" class="form-control form-control-sm datetimepicker-input border-end-0"
-                                data-target="#export-from" id="from"></input>
-                            <div class="input-group-append" data-target="#export-from" data-toggle="datetimepicker">
-                                <div class="input-group-text"><img src="./assets/images/ic-calendar.svg"></div>
-                            </div>
-                        </div>
-                    </div>
+            <div class="col-lg-8 col-xl-5">
+                <div class="d-flex align-items-center mb-2 mb-xl-0">
+                    <label for="export-from" class="me-2">發布日期</label>
+                    <input type="date" class="form-control form-control-sm" id="export-from" style="width: calc(50% - 55px)">
                     <label for="export-to" class="mx-2">至</label>
-                    <div class="form-group" style="width: calc(50% - 52px)">
-                        <div class="input-group date" id="export-to" data-target-input="nearest">
-                            <input type="text" class="form-control form-control-sm datetimepicker-input border-end-0"
-                                data-target="#export-to">
-                            <div class="input-group-append" data-target="#export-to" data-toggle="datetimepicker">
-                                <div class="input-group-text"><img src="./assets/images/ic-calendar.svg"></div>
-                            </div>
-                        </div>
-                    </div>
+                    <input type="date" class="form-control form-control-sm" style="width: calc(50% - 52px)" id="export-to">
                 </div>
             </div>
-            <div class="col-lg-4">
-                <div class="d-flex align-items-center mb-2 mb-lg-0">
+            <div class="col-xl-4">
+                <div class="d-flex align-items-center">
                     <label for="export-level" class="me-2">標題</label>
                     <input class="form-control form-control-sm" type="text" value="標題標題" style="width: calc(100% - 161px)" id="export-level">
                     <button class="btn btn-dark-primary-color py-1 rounded-lg ms-auto font-xs-md" style="width: 100px">查詢</button>
@@ -246,10 +230,11 @@
 		<!-- SCRIPTS -->
 		<script src="assets/js/jquery-3.3.1.min.js"></script>
 		<script src="assets/js/bootstrap.bundle.js"></script>
+		<script src="assets/js/popper.min.js"></script>
+		<script src="assets/js/tempus-dominus.js"></script>
 		<script src="assets/js/slick.js"></script>
-		<script src="assets/js/moment-with-locales.min.js"></script>
-		<script src="assets/js/tempusdominus-bootstrap-4.min.js"></script>
 		<script src="assets/js/script.js"></script>
+
 		<script type="text/javascript">
 			$(function () {
 				$('.event-slider').slick({
@@ -285,20 +270,12 @@
 						// instead of a settings object
 					]
 				});
-				
-			});
-		</script>
-		<script type="text/javascript">
-			$(function () {
-				$('#export-from').datetimepicker({
-					format: 'YYYY/MM/DD',
-					locale: 'zh-tw'
-				});
-				$('#export-to').datetimepicker({
-					format: 'L',
-					locale: 'zh-tw',
-					defaultDate: new Date(),
-				});
+
+				var datefrom = document.querySelector("#export-from");
+				var dateto = document.querySelector("#export-to");
+				var today = new Date();
+				datefrom.value = today.toISOString().substr(0, 10);
+				dateto.value = today.toISOString().substr(0, 10);
 			});
 		</script>
 	</div>
