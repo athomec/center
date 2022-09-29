@@ -21,8 +21,14 @@ $(function () {
     pause: "false"
   });
   bar.css("width", barWidth + "%");
-  $(".js-active-img").load(function () {
-    alert("666");
+
+  var imageLoaded = function imageLoaded() {// Run onload code.
+  };
+
+  $('.js-active-img').each(function () {
+    var tmpImg = new Image();
+    tmpImg.onload = imageLoaded;
+    tmpImg.src = $(this).attr('src');
     autoplay();
   });
   slide_btn.click(function () {
