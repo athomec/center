@@ -21,7 +21,9 @@ $(function () {
     pause: "false"
   });
   bar.css("width", barWidth + "%");
-  autoplay();
+  $(".carousel-item").find("img").load(function () {
+    autoplay();
+  });
   slide_btn.click(function () {
     clearTimeout(to_play);
     clearTimeout(to_stop);
