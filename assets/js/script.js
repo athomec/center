@@ -15,18 +15,22 @@ $(function () {
   var slide_btn = $('.js-slider').find('button');
   var bar = $('.js-bar');
   var barWidth = 0;
+  var to_play;
+  var to_stop;
   $('.js-slider').carousel({
     pause: "false"
   });
   bar.css("width", barWidth + "%");
+  autoplay();
   slide_btn.click(function () {
+    clearTimeout(to_play);
+    clearTimeout(to_stop);
     autoplay();
   });
-  autoplay();
 
   function autoplay() {
     resetAnimation();
-    setTimeout(autoplay, 5000);
+    to_play = setTimeout(autoplay, 5000);
   }
 
   ;
@@ -35,7 +39,7 @@ $(function () {
     barWidth = 0;
     bar.css("width", barWidth + "%");
     bar.removeClass("animate").addClass("stopanimation");
-    setTimeout(startAnimation, 10);
+    to_stop = setTimeout(startAnimation, 10);
   }
 
   ;
