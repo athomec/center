@@ -22,10 +22,23 @@ $(function () {
   });
   bar.css("width", barWidth + "%");
 
-  var imageLoaded = function imageLoaded() {// Run onload code.
+  var onImgLoad = function onImgLoad(selector, callback) {
+    $(selector).each(function () {
+      if (this.complete ||
+      /*for IE 10-*/
+      $(this).height() > 0) {
+        callback.apply(this);
+      } else {
+        $(this).on('load', function () {
+          callback.apply(this);
+        });
+      }
+    });
   };
 
-  autoplay();
+  onImgLoad('.js-active-img', function () {
+    autoplay();
+  });
   slide_btn.click(function () {
     clearTimeout(to_play);
     clearTimeout(to_stop);
