@@ -14072,6 +14072,8 @@ label {
 
 .small-btn {
   height: 26px;
+  padding-top: 0;
+  padding-bottom: 3px;
   font-size: 1rem;
   font-weight: 400; }
 
@@ -14496,13 +14498,13 @@ label {
   .card-list-btn {
     width: 70px;
     height: 23px;
+    line-height: 23px;
     text-align: center;
     border: 1px solid #014099;
     color: #014099;
     border-radius: 50px;
     font-size: 0.7rem;
-    font-weight: 500;
-    padding: 0 0 2px 0; }
+    font-weight: 500; }
 
 .number-list {
   list-style-type: decimal;
@@ -16741,6 +16743,8 @@ label {
       opacity: 1 !important; }
       .carousel-indicators [data-bs-target].active {
         background-color: #014099; }
+  .carousel-inner {
+    pointer-events: none; }
 
 .carousel-progress-bar {
   height: 4px;
