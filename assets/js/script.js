@@ -21,7 +21,7 @@ $(function () {
     pause: "false"
   });
   bar.css("width", barWidth + "%");
-  $(".carousel-inner").find("active").load(function () {
+  $(".carousel-inner").find(".active").load(function () {
     alert("666");
     autoplay();
   });
